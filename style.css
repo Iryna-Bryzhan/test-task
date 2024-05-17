@@ -1,0 +1,125 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.bg-Tap {
+  width: 94px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -235px -10px;
+}
+.bg-paint {
+  width: 91px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -10px -10px;
+}
+
+.bg-picture {
+  width: 117px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -864px -10px;
+}
+.bg-outdoor {
+  width: 94px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -121px -10px;
+}
+.bg-instalation {
+  width: 98px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -349px -10px;
+}
+.bg-home {
+  width: 116px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -728px -10px;
+}
+.bg-Furnit {
+  width: 123px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -1001px -10px;
+}
+.bg-Electrical {
+  width: 111px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -597px -10px;
+}
+.bg-door {
+  width: 110px;
+  height: 100px;
+  background: url("/img/css_sprites.png") -467px -10px;
+}
+.border-green {
+  border: 2px solid rgba(23, 157, 46, 1);
+}
+.border-blue {
+  border: 2px solid rgba(1, 119, 184, 1);
+}
+.border-orange {
+  border: 2px solid rgba(245, 175, 35, 1);
+}
+.border-red {
+  border: 2px solid rgba(240, 46, 44, 1);
+}
+.service-cards {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.service-card {
+  width: 375px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.service-card-img {
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+.service-card-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  color: rgba(24, 24, 51, 1);
+}
+.service-card-descr {
+  flex: 1;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(45, 45, 45, 1);
+  padding: 0;
+  padding-left: 30px;
+}
+.service-card-descr li {
+  margin-bottom: 12px;
+}
+.view-more {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(45, 45, 45, 1);
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+
+@media (min-width: 0) and (max-width: 360px) {
+    .service-card {
+        width: 270px;
+        padding: 20px;
+      }
+      .service-card-title {
+        font-size: 32px;
+      }
+      .service-card-descr {
+        font-size: 20px;
+      }
+      .service-card-descr li {
+        margin-bottom: 6px;
+      }
+      .view-more {
+        font-size: 20px;
+      }
+}
