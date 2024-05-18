@@ -60,7 +60,7 @@ body {
   border: 2px solid rgba(240, 46, 44, 1);
 }
 .service-cards {
-  max-width: 1440px;
+  max-width: 1350px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -104,22 +104,21 @@ body {
   align-self: flex-end;
 }
 
-
 @media (min-width: 0) and (max-width: 360px) {
-    .service-card {
-        width: 270px;
-        padding: 20px;
-      }
-      .service-card-title {
-        font-size: 32px;
-      }
-      .service-card-descr {
-        font-size: 20px;
-      }
-      .service-card-descr li {
-        margin-bottom: 6px;
-      }
-      .view-more {
-        font-size: 20px;
-      }
+  .service-card {
+    width: 270px;
+    padding: 20px;
+  }
+  .service-card-title {
+    font-size: 32px;
+  }
+  .service-card-descr {
+    font-size: 20px;
+  }
+  .service-card-descr li {
+    margin-bottom: 6px;
+  }
+  .view-more {
+    font-size: 20px;
+  }
 }
